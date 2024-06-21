@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="24.03.2024.css">
+   
+</head>
+<body>
+    <div class="header">
+        <div class="maincontener">
+            <div class="menu">
+                <a href="12.05.2024.html"><p class="sales">скидки</p></a>
+                <p class="new">новинки</p>
+                <p class="shops">магазины</p>
+                <p class="baskett" onclick="showbasket()">корзина</p>
+                <p class="catalog">каталог</p>
+            </div>
+        <div class="galery">
+        <div class="carusel" id="slider">
+            <img src="10.webp" alt="">
+            <img src="11.webp" alt="картинка">
+            <img src="12.jpg" alt="картинка">
+            <img src="13.webp" alt="картинка">
+
+        </div>
+        </div>
+        <div class="buttons">
+            <button onclick="left()"><</button>
+            <button onclick="right()">></button>
+        </div>
+        </div>
+    </div>
+    <div class="catalogg" id="catalogg">
+    </div>
+ <div class="basket" id="basket">
+    <p id="hidd" onclick="closebasket()">×</p>
+    <div class="otst">
+    <div>
+    <div>
+    <div class="headerk">
+        <div class="head11">
+        <div class="padd">
+            <h1>корзина</h1>
+        </div>
+        <div class="padd">
+            <p>/...шт</p>
+        </div></div>
+        <div class="padd ">
+            <p>бесплатная доставка</p>
+        </div>
+    </div>
+    <div >
+    <button class="delete">удалить все</button>
+    </div>
+    </div>
+    <div class="div15">
+    <div class="cart1" id="cart1">
+        
+    
+    </div>
+
+    <div class="namee">
+            <input type="text"  id="prcode" placeholder="Введите промокод">
+            <button onclick="entryPromo()">отправить</button>
+    </div>
+    <div class="costss">
+        <h1 class="summacost">Сумма покупки</h1>
+        <div class="costbasket1">
+            <p class="pcostp11" > стоимость продуктов</p>
+            <p class="pcostp111" id="summa"></p>
+        </div>
+        <div class="costbasket2">
+            <p class="pcostp12">сумма скидки</p> 
+            <p class="pcostp122" id="skidka"></p>
+        </div>
+        <div class="costbasket3">
+            <p class="pcostp13">итого</p>
+            <p class="pcostp133" id="itog"></p>
+        </div>
+
+    </div >
+    <button class="oform">Оформить заказ</button>
+    </div>
+    </div>
+    </div>
+ </div>
+    <script src="24.04.2024.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
